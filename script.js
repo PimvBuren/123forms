@@ -1,5 +1,17 @@
-function addSeparators() {
-    var number1 = loader.engine.document.getElementById(116038510).getProperty('value.value'); // - formula field or number field
-    loader.engine.document.getElementById(116038510).setValue(({"value": number1.toLocaleString('de-DE')})); //- short text field
-    };
-    window.onclick = addSeparators;
+function EditEuro() {
+    var Euro={prijs2};
+    
+    InputEuro = document.euroconv.Euro.value;
+    FixedEuro = parseFloat(InputEuro.replace
+    (',',g, '.'));
+    document.euroconv.Mark.value = cent(parseFloat
+    (FixedEuro*KursMark*100)/100);
+    }
+    
+    
+    // hier probeer ik de output op het scherm weer te
+    //geven
+    // document.writeln("Input: ",InputEuro,"<br>");
+    
+    //weergeven van resultaat
+    // document.writeln("Output: ", Euro, "<br>");
